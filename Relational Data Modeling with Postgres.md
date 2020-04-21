@@ -6,6 +6,8 @@ Data is valuable, in order to gain insights from the collect data of songs and u
 Sparkify's analytical team is keen in determing the user's behavior, the songs that they are listing and the likelihood of liking a song. As per the current configuration of data storage, 
 which is in directory of json logs on user activity and as well on songs details, analyzing is a tedious process but with increase in json logs and metadata the difficulty will increase dramatically.
 
+In order to overcome this complexity, creation of <i>STAR Schema</i> database is recommeded which is achieved by data modeling and creation of ETL pipelines.
+
 
 
 ## Dataset Information
@@ -19,7 +21,9 @@ song_data/A/B/C/TRABCEI128F424C983.json
 song_data/A/A/B/TRAABJL12903CDCF1A.json
 ```
 A single song file, TRAABJL12903CDCF1A.json, looks like. 
-```{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}```
+```
+{"num_songs": 1, "artist_id": "ARJIE2Y1187B994AB7", "artist_latitude": null, "artist_longitude": null, "artist_location": "", "artist_name": "Line Renaud", "song_id": "SOUPIRU12A6D4FA1E1", "title": "Der Kleine Dompfaff", "duration": 152.92036, "year": 0}
+```
 
 
 #### Log Dataset
@@ -35,14 +39,14 @@ log_data/2018/11/2018-11-13-events.json
 
 #### Database STAR Schema
 In order to overcome this complexity, creation of database is recommeded which is achieved by data modeling and creation of ETL pipelines.
-An optimized STAR schema is needed to be created to analyze:-
+An optimized STAR schema is needed to be created to analyze few scenarios:-
 * Top trending songs
 * Recommendation of songs
 * How likely is a user going to subscribe to the application
 
-A Star Schema will have:
-* **Fact Table** :- **songplays** 
-* **Dimension Tables** :- **users**, **songs**, **artists**, **time**
+A **Star Schema** will have:
+* **Fact Table** :- songplays 
+* **Dimension Tables** :- users, songs, artists, time
 
 
 **Tables Information** 
