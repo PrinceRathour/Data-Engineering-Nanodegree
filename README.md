@@ -1,6 +1,6 @@
 # Data Engineering Nanodegree
 
-Projects and resources developed in the [DEND Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) from Udacity.
+Projects and resources developed in the [Data Engineering Nanodegree](https://www.udacity.com/course/data-engineer-nanodegree--nd027) from Udacity.
 
 ## Project 1: [Relational Databases - Data Modeling with PostgreSQL](https://github.com/ravidawar/Data-Engineering-Nanodegree/tree/master/relational_db_modeling_postgresql)
 
