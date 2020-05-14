@@ -71,3 +71,11 @@ Technologies used: Apache Spark, Python,Star Schema, ETL pipelines, Normalizatio
 
 
 
+
+
+## Certificate of graduation from a Udacity Data Engineering Nanodegree program
+<p align="center"><img src="Udacity Data Engineering Certificate.jpg" style="height: 100%; width: 100%; max-width: 200px" /></p>
+
+## [Graduate certificate verification link](https://confirm.udacity.com/5D3Q43NL) 
+
+
