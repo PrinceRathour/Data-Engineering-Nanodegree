@@ -1,5 +1,6 @@
 # US I94 Immigration Insights 
 ### Data Engineering Capstone Project
+<p align="center"><img src="udacity (1).png" style="height: 100%; width: 100%; max-width: 200px" /></p>
 
 #### Project Summary
 
